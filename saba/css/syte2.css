@@ -123,5 +123,152 @@ body{
  opacity:1;
  animation: animate 5s linear infinite;
 }
+#syte{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #f40303, #33ff00);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;   
+}
+#syte:hover
+{
+ animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+ 0%
+ {
+  background-position: 0%;
+ }
+ 100%
+ {
+  background-position: 400%;
+ }
+}
+#syte:before
+{
+ content: '';
+ position: absolute;
+ top: -5px;
+ left: -5px;
+ right: -5px;
+ bottom: -5px;
+ z-index: -1;
+ background: linear-gradient(90deg, #f40303, #00ff22);
+ background-size: 400%;
+ border-radius: 40px;
+ opacity: 0;
+ transition: 0.5s;
 
+ 
+}
+#syte:hover:before
+{
+ 
+ filter: blur(20px);
+ opacity:1;
+ animation: animate 5s linear infinite;
+}
+#davaleba{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #f40303, #33ff00);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;   
+}
+#davaleba:hover
+{
+ animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+ 0%
+ {
+  background-position: 0%;
+ }
+ 100%
+ {
+  background-position: 400%;
+ }
+}
+#davaleba:before
+{
+ content: '';
+ position: absolute;
+ top: -5px;
+ left: -5px;
+ right: -5px;
+ bottom: -5px;
+ z-index: -1;
+ background: linear-gradient(90deg, #f40303, #00ff22);
+ background-size: 400%;
+ border-radius: 40px;
+ opacity: 0;
+ transition: 0.5s;
+
+ 
+}
+#davaleba:hover:before
+{
+ 
+ filter: blur(20px);
+ opacity:1;
+ animation: animate 5s linear infinite;
+}
+.eyes{
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .eye{
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ball{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 15px solid #333;
+  }
+  
  
