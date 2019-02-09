@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="calculator style.css">
+        <script>
+            
+            function calc()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                
+                var oper = document.getElementById('operators').value;
+                
+                if(oper === '+')
+                {
+                    document.getElementById('pasuxi').value = n1+n2;
+                }
+                
+                if(oper === '-')
+                {
+                    document.getElementById('pasuxi').value = n1-n2;
+                }
+                
+                if(oper === '/')
+                {
+                    document.getElementById('pasuxi').value = n1/n2;
+                }
+                
+                if(oper === 'X')
+                {
+                    document.getElementById('pasuxi').value = n1*n2;
+                }
+            }
+            var balls = document.getElementsByClassName("ball");
+          document.onmousemove = function(){
+            var x = event.clientX * 100 / window.innerWidth + "%";
+            var y = event.clientY * 100 / window.innerHeight + "%";
+            for(var i=0;i<2;i++){
+              balls[i].style.left = x;
+              balls[i].style.top = y;
+              balls[i].style.transform = "translate(-"+x+",-"+y+")";
+            }
+          }
+            
+        </script>
+        
+    </head>
+    <body>
+    <center>
+        <h1>Calculator</h1>
+        <br> 
+        <input type="text" id="n1" placeholder="Chaweret ricxvi"><br>
+        <input type="text" id="n2" placeholder="Chaweret ricxvi"><br>
+        &nbsp;<input type="text" id="pasuxi" placeholder="Pasuxi">
+        <br>
+        <select id="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="X">X</option>
+        </select>
+        
+        <a onclick="calc();">Gamotvla</a>
+        <div class="eyes">
+            <div class="eye">
+              <div class="ball"></div>
+            </div>
+        
+            <div class="eye">
+              <div class="ball"></div>
+            </div>
+        </div>
+        
+        </center>   
+    </body>
+</html>
