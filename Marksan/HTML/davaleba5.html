@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <center><form>
+        <table>
+            <thead>
+                <th>
+
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name</label></td>                               <!--ფილმის სახელი-->
+                    <td><input type="text" name="name" id="name" placeholder="ფილმის სახელი"></td>
+                </tr>                                                                                       
+                <tr>
+                    <td>movie type</td>                                                   <!--ფილმის სახელების ჩამონათვალი-->  
+                    <td>
+                        <select>
+                            <option selected disabled>select a movie type</option>
+                            <option>Action</option>
+                            <option>Comedy</option>
+                            <option>Documentary</option>
+                            <option>Drama</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Item Type</td>
+                    <td><input type="radio" name="movie" value="Movie">Movie<br>          <!--ასარჩევი ტუ რა მოძებნოს კინო,მსახიობი თუ დირექტორი-->
+                        <input type="radio" name="movie" value="Movie2">Actore<br>
+                        <input type="radio" name="movie" value="Movie3">directore
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="DiDeIn" value="DiDeIn">Display debug information</td> <!--ეს არ ვიცი რაარი მომწერე რა-->
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" name="search" value="search">&nbsp;&nbsp;<input type="button" name="Add" value="Add"></td><!--ღილაკები მოძებნის და რაიმე ინფორმაციის დამატებისთვის-->
+                </tr>
+            </tbody>
+        </table>
+    </form></center>
+</body>
+</html>
