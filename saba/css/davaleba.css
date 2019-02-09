@@ -1,0 +1,46 @@
+.pain {
+      background-image: url("photos/sa.jpg");
+      background-size:cover;
+      min-height:300px;
+      width:100%;
+      height:20px;
+      min-width:400px;
+      
+      }
+.pain1 {
+      background-color: rgb(168, 131, 236);
+      min-height:300px;
+      width:10px;
+      height:10px;
+      min-width:200px;
+      padding-top: 20px;
+      position: absolute;
+      padding-bottom: 100%
+
+      
+}
+h3 {
+      padding-left: 50px
+}
+.pain11:hover {
+      background-color: greenyellow;
+      cursor:pointer;
+      font-weight: black;
+      color:blue;
+      width: 30px
+  }
+  .pain12:hover {
+      background-color: greenyellow;
+      cursor:pointer;
+      font-weight: black;
+      color:blue;
+      width: 40px
+  }
+  .pain13:hover {
+      background-color: greenyellow;
+      cursor:pointer;
+      font-weight: black;
+      color:blue;
+      width: 45px
+  }
+  

@@ -1,0 +1,43 @@
+body {
+    background-image:url(wewe.png)
+}
+#saba {
+    background-color:red
+}
+#gio {
+    background-color:green
+
+}
+#iveri {
+    background-color:white
+
+}
+.flex{
+    display: flex;
+    background-color: DodgerBlue;
+}
+.flex > div {
+    background-color: #f1f1f1; 
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+#java {
+    background-color:greenyellow
+}
+.qwert {
+    border:1
+}
+#cotne {
+    margin-left: 50px
+}
+.s1 {
+    padding-left: 50px
+}
+.j1:hover {
+    background-color: greenyellow;
+    cursor:pointer;
+    font-weight: black;
+    color:red;
+    width: 70px
+}
