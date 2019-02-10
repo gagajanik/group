@@ -1,0 +1,33 @@
+#cover {
+    background-color: black;
+    height:40px;
+    color:white;
+    font-size: 13px;
+    padding-top: 20px;
+    
+}
+.nuli {
+    margin-left:230px;
+    
+}
+.pirveli {
+    margin-left:230px;  
+}
+.meore {
+    margin-left:230px;  
+}
+.mesame {
+    margin-left:230px; 
+    
+}
+#covermeore {
+    background-image: url("./images/ფოტო.jpg");
+    height:400px;
+    
+}
+#satauri {
+    background-color: black;
+    height:30px;
+    width:200px;
+    color:white; 
+}

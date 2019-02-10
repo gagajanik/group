@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+li:hover {
+background-color: green;
+cursor: pointer;
+color: white;
+font-weight: bold;
+}
+#header {
+background-image: url("sa.jpg");
+height: 200px;
+background-repeat: no-repeat;
+background-size:cover;
+}
+.container {
+display:flex;
+height: 100%; 
+}
+.fixed {
+background-color:#4F628E;
+
+}
+.flex-item {
+background-color:#7887AB;
+padding-left: 40px ;
+flex-grow: 1
+}
+#cover {
+padding-top: 150px;
+}
+</style>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+<div id="header">
+<h1 id="cover">test test</h1>
+</div>
+<div class="container">
+<div class="fixed">
+<ul style="padding-right: 100px">
+<li>pirveli</li>
+<li>meore</li>
+<li>mesame</li>
+</ul>
+</div>
+<div class="flex-item">
+pirveli
+<hr>
+meore
+<hr>
+</div>
+</div>
+</body>
+</html>
