@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-test test test
-
-hgfhgfhgfhfhgfhgfhgfhgfhg
-=======
-test test test
->>>>>>> hgfhgfh
-=======
-test test testhjjhfhgfhg
->>>>>>> hghfghgf
-=======
-test test testhjjhfhgfhg
-<<<<<<< HEAD
-<p>katkat
-    
-</p>
->>>>>>> ganaxleba
-=======
-<p>katkat</p>
->>>>>>> ganaxleba
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,10 +7,24 @@ test test testhjjhfhgfhg
     <title>Document</title>
 </head>
 <body>
-    
+    <form name="calcform" action="" method="POST">
+        <input type="text" name="firstName">
+        <input type="text" name="lastName">
+        <input type="submit" value="შესრულება">
+    </form>
+
+    <label for="pirveli">პირველი</label>
+    <input type="number" id="pirveli">
+    <label for="meore">მეორე</label>
+    <input type="number" id="meore">
+    <button onclick="test(document.getElementById('pirveli').value,
+    document.getElementById('meore').value)">შესრულება</button>
 </body>
+<script>
+    document.getElementById('tt').innerText = '<h1>katooo</h1>'
+        function test(pirveli, meore) {
+         alert(pirveli*1 + meore*1);
+        }
+    </script>
 </html>
->>>>>>> mirianis gverdze ganaxleba
-=======
-test test test
->>>>>>> jhgjhgjgj
+
