@@ -1,0 +1,33 @@
+#saxeli {
+    background-image: url("images/mta.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meore {
+    display: flex;
+    height: 100%;
+}
+.fixed {
+    background-color: blueviolet;
+    flex-grow: 1;  
+
+
+}
+li:hover {
+    background-color: green; 
+    cursor:pointer;
+    font-weight:      ;
+    color: white;
+}
+.mesame {
+    background-color: #7887AB;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 500px
+
+}
+#footer {
+    backgroudn-color:green;
+    text-align:right;
+}
