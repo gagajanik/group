@@ -2,9 +2,6 @@ h1{
     margin-left: 40%;
     color:red
 }
-body{
-    background-image: galaxy.jpg
-}
 #calculator{
     position: absolute;
  top: 30%;
@@ -241,4 +238,3 @@ body{
  opacity:1;
  animation: animate 5s linear infinite;
 }
- 
