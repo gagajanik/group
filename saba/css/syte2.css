@@ -238,3 +238,18 @@ h1{
  opacity:1;
  animation: animate 5s linear infinite;
 }
+#saba{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: 500px;
+    
+}
+#saba2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+title{
+    color: blue
+}
