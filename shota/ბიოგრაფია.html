@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <!-- <link rel="stylesheet"type="txt/css" href="biography.css"> -->
+        <link rel="shortcut icon" href="icon.png">
+    <!-- <link rel="stylesheet"type="txt/css" href="biography.css"> -->
     
     <title>biorgraphy</title>
     <style>
+        p:hover{
+            background-color: brown;
+            font: 10px;
+        }
         #video{
             margin-left: 2%;
         }
@@ -13,15 +18,19 @@
 
         }
         #surati{
-            margin-inline-start: 2%;
+            margin-inline-start: -3%;
         }
         #video{
-            margin-block-start: 10;
+            margin-left:-6px;
         }
         #baraki{
             margin-top: 3px;
-            margin-right: 150px;
+            margin-right: 200px;
         }
+        .n1{
+            display: flex;
+        }
+        
       
     </style>
 
@@ -31,9 +40,13 @@
 <body>
             
         
-        <p id="about"><b>ექსპრეზიდენტი</b></p>
-        <img src="ობამა.jpg" width="200px" id="surati">
-        <p id="baraki">ბარაკ ობამა</p>
+        <h2 id="about">
+            <b>ექსპრეზიდენტი</b>
+        </h2>
+        <div class="n1">
+                <div class="n2"><img src="ობამა.jpg" width="200px" id="surati"></div> 
+                <div class="n2"><p id="baraki">ბარაკ ობამა</p></div>
+        </div>
         
         
         <video controls width="400" id="video" id="video">
