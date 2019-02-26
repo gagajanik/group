@@ -1,0 +1,24 @@
+#firstName {
+    color: green;
+    border-style: double;
+    border-width: 5px;
+    border-color: brown;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 50px;
+    margin: auto
+  }
+  #dd {
+      border-style: double;
+      height: 500px;
+  }
+  #pirveli {
+      padding-left: 200px
+  }
+  #meore {
+      padding-left: 300px;
+  }
+  .feri {
+      color: green
+  }

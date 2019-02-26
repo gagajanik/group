@@ -1,6 +1,6 @@
 h1{
     margin-left: 40%;
-    color:red
+    color:white
 }
 #calculator{
     position: absolute;
@@ -252,4 +252,11 @@ h1{
 }
 title{
     color: blue
+}
+video{
+    padding-top: 13%
+}
+audio{
+    padding-top: 1%;
+    padding-left: 15%
 }
