@@ -6,17 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
-        function test() {
-            alert("davaleba");
+        function test(saxeli, gvari) {
+            alert(saxeli + gvari);
         }
 
     </script>
 </head>
 <body>
-სახელი<input type="text" name="saxeli">
-გვარი<input type="text" name="gvari">
-<br>
-<button onclick="test()">shesruleba</button>
+სახელი<input type="number" id="saxeli">
+გვარი<input type="number" id="gvari">
+<button onclick="test(2,3)">shesruleba</button>
     
 </body>
 </html>
