@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>switch</title>
+    <script>
+    function pirveliPunqcia () {
+var x = document.getElementById('pirveli').value
+//   switch igivea rac if i ,roca bevr ragacas vadarebt ertmanets upro mosaxerxebelia svitchi.
+switch(x) {
+    case  "elene" : 
+    alert('solomonia') ; break;
+    case "gaga" : 
+    alert('janikashvili') ; break;
+//  default - anu tu sxva raimes chaweren amovardes ragac , anu ucnobi ragacis shemtxvevashi
+     default : alert ('arasworia') ; 
+
+}
+    }
+    // masivi - anu shegidzlia bevri cvladi mianicho
+function arrayTest() {
+    var arr = [
+        "BMW" , "WV", "opel",
+    ] ;
+    for(var i =0;i<=3;i++){
+    alert("" + arr[i]); }
+}
+
+function forTest() {
+    for(var i=0; i<=10; i++  ) {
+    alert("mesiji" + i ) ; }
+}
+  
+    </script>
+</head>
+<body>
+    <label>pirveli</label>
+   <input id="pirveli" type="text" >  <br> <br> 
+   <input type="button" value="shemdegi " onclick="arrayTest()">
+</body>
+</html>

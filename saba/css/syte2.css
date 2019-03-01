@@ -1,6 +1,6 @@
 h1{
     margin-left: 40%;
-    color:red
+    color:white
 }
 #calculator{
     position: absolute;
@@ -237,4 +237,26 @@ h1{
  filter: blur(20px);
  opacity:1;
  animation: animate 5s linear infinite;
+}
+#saba{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: 500px;
+    
+}
+#saba2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+title{
+    color: blue
+}
+video{
+    padding-top: 13%
+}
+audio{
+    padding-top: 1%;
+    padding-left: 15%
 }

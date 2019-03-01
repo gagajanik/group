@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function test(pirveli,meore){
+
+      
+      //  var a=document.getElementById('pirveli').innerHTML;
+      //  var b = document.getElementById('meore').innerHTML ;
+      //  alert (a + ' ' + b)
+        var x = document.getElementById('pirveliinputi').value ;
+        var y = document.getElementById('meoreinputi').value;
+alert(pirveli*1 + meore*1 ) ;
+        }
+    </script>
+</head>
+<body>
+    <p id="pirveli">pirveli pirveli</p>
+    <p id="meore">meore meoree</p>
+    <button onclick="test()">send</button> <br><br>
+
+    <label>pirveli</label>
+    <input type="number" id="pirveliinputi" value="3"> 
+    <label>meore</label>
+    <input type="number" id="meoreinputi" value="4"; <br> <br>
+    <button onclick="test(document.getElementById('pirveliinputi').value,
+    document.getElementById('meoreinputi').value)">shedegi</button> <br>
+<br>
+    <!-- roca uverelshi chans chveni chawerili mnishvnelobebi  get-->
+    <!-- tu postshi vwer zevit ar gamochndeba araperi,mag:roca pasvordic shesayvania da ar ginda gamochndes -->
+     <form name="saxeli" method="POST">
+<input type="text" name="pirveli">
+<input type="text" name="gvari">
+<input type="submit" value="shesrruleba" >
+    </form>
+</body>
+</html>
