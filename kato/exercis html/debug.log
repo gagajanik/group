@@ -36,3 +36,7 @@
 [0224/100204.098:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0224/100204.099:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0224/100204.099:ERROR:exception_snapshot_win.cc(88)] thread ID 7392 not found in process
+[0301/125934.243:ERROR:process_info.cc(359)] UncheckedAllocate
+[0301/125939.033:ERROR:process_info.cc(359)] UncheckedAllocate
+[0301/125939.045:ERROR:process_info.cc(359)] UncheckedAllocate
+[0301/125957.322:ERROR:process_info.cc(359)] UncheckedAllocate
