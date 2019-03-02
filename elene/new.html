@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // function test(){
+            // alert("drasti") ;
+        // }
+      function axali() {
+var x=document.getElementById('pirveli').value ;
+var y = document.getElementById('meore').value ;
+var z = x*1 + y*1 ;
+
+document.getElementById('jami').innerHTML = z ;
+if( z==5 || z==9) {
+alert("xo")
+} else{alert("ara")}
+      }  
+    //   && es nishnavs da s , || es nishnavs an s 
+    function text(){
+        if(document.getElementById('pirveliinputi').value =="elene"){
+            alert("solomonia")
+
+        } else if(document.getElementById('pirveliinputi').value =="gaga"){
+            alert("janikashvili")
+        }
+        else if(document.getElementById('pirveliinputi').value =="kato"){
+            alert("javakhadze")
+        }
+        else{"none"}
+//   var c = document.getElementById('pirveliinputi');
+//  var b = document.getElementById('meoreinputi');
+//  var b = c 
+
+    }
+    </script>
+    <style>
+ /* .pirveli{ */
+    /* margin-left: 200px; */
+/* } */
+    </style>
+</head>
+<body>
+<!-- <input class="pirveli" type="button" value="send" onclick="test()" > -->
+<input type="text" id="pirveli">
+<input type="text" id="meore"> <br> <br>
+ <!-- <select id="selecti"> -->
+    <!-- <option>+</option> -->
+    <!-- <option>-</option> -->
+    <!-- <option>/</option> -->
+    <!-- <option>*</option> -->
+ <!-- </select> <br> -->
+<input type="button" value="send"  onclick="axali()" >
+<p id="jami"></p> <br>
+
+<input type="text" id="pirveliinputi">
+<input  type="button" value="gagzavna" onclick="text()">
+
+</button>
+</body>
+</html>
