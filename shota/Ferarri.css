@@ -1,0 +1,30 @@
+
+#shaviferari{
+    background-image: url("./ferarri1.jpg");
+    width: 1333px;
+    height:349px;
+
+}
+
+
+#FerarriMclaren{
+    background-color:rgb(167, 62, 62);
+    width: 170px;
+    height: 100%;
+    text-align: left;
+    color: black
+}
+.flex-container {
+    display: flex;
+    height: 600px;
+}
+.flex-container > div{
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    font-size: 18px;
+    background-color:black;
+    height: 100%;
+    color: blanchedalmond;
+
+}

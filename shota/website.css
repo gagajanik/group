@@ -1,0 +1,30 @@
+#manqanebi{
+    background-image: url("12.jpg");
+
+    width: 1333px;
+    height:195px;
+    
+    
+
+    
+}
+
+#list{
+    background-color: gray;
+    width: 170px;
+    height: 100%;
+    text-align: left;
+}
+.flex-container {
+    display: flex;
+    height: 600px;
+}
+.flex-container > div{
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(56, 47, 47);
+    height: 100%;
+
+}
