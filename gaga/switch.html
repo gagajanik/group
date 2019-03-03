@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+    function nameCheck() {
+      var x = document.getElementById("saxeli").value;
+      switch(x) {
+          case "gaga": 
+          alert('janikashvili');
+          break;
+          case "kato":
+          alert('javakhadze');
+          break;
+          default: 
+          alert('araaa');
+          break;
+      }
+    }
+    function arrayTest() {
+        var arr = ["BMW","WV","Opel"];
+        var inx = document.getElementById('saxeli');
+        alert(arr[inx]);
+        alert(arr['BMW']);
+    }
+    function forTest() {
+        var arr = ["BMW","WV","Opel"];
+        for(var i=0; i<=2; i++) {
+            alert(arr[i]);
+        }
+    }
+    </script>
+</head>
+<body>
+    <input type="text" id="saxeli">
+    <button  onclick="forTest()">შესრულება</button>
+</body>
+</html>

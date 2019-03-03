@@ -1,0 +1,98 @@
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #rgb(167, 62, 62)}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 88px;
+    display: none;
+  }
+  ul li ul li { 
+    background:#rgb(167, 62, 62); 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background:#211c23}
+
+#p1{
+    background-image: url("./mclaren.jpg");
+    width: 1333px;
+    height:287px;
+    background-attachment: fixed;
+
+}
+
+
+#mclaren{
+    background-color:#6b6b07;
+    width: 170px;
+    height: 100%;
+    text-align: left;
+    color: black
+}
+.flex-container {
+    display: flex;
+    height: 600px;
+}
+.flex-container > div{
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    font-size: 18px;
+    background-color:#211c23;
+    height: 100%;
+    color: blanchedalmond;
+
+}
+#next{
+    background-color: #33311c;
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#back{
+    background-color: #33311c;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#home{
+    
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 3px px;
+    cursor: pointer;
+
+}
+#mc{
+    margin-left: 77.5%;
+    margin-top: 3.5%;
+}
