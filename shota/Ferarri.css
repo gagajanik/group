@@ -86,3 +86,6 @@ div a {
     margin-top: 8.2%;
    
 }
+#div1{
+  flex-grow: 1;
+}
