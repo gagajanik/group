@@ -260,6 +260,11 @@ audio{
     padding-top: 1%;
     padding-left: 15%
 }
-input{
-    width: 10000px
+#saba{
+    width: 200px;
+    margin-left: 60%
+}
+#javaxa1{
+    margin-left: 80%;
+    margin-bottom: 80px 
 }

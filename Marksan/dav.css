@@ -11,3 +11,6 @@ body{
     border-color: rgb(128, 85, 85);
     text-align: center;
 }
+h2:hover{
+    background-color:  rgb(128, 85, 85);
+}
