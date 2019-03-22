@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var names=["elene","beqa","kato","gaga"];
+        //  document.write("<p>"+ names +"</p>");
+        for(i=0;i<=3;i++){
+             document.write("<p id='pe"+i +"'>" + names[i] + "</p>");
+            switch(i){
+            case 0:
+            document.getElementById('pe'+i).style.color='red'
+            break;
+            case 1:
+            document.getElementById('pe'+i).style.color='blue'
+            break;
+            case 2 :
+            document.getElementById('pe'+i).style.color='pink'
+            break;
+
+        }
+        }
+       
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

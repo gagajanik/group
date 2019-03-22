@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="pe"></p>
+    <script>
+            
+            // document.getElementById('pe').innerHTML=cars[1]["model"] + " " + cars[0].age;
+           
+                var cars=[{model:"bmw",matori:2.5,age:1993},
+            {model:"opel",matori:3.5,age:1997}];
+            // document.write("<table border='2px' >"
+                    // for (var i=0;i<=3;i++) {
+                // +"<tr><td>model</td> <td>matori</td><td>age</td></tr>"
+                // + 
+        //    " <tr><td>"+cars[i].model+"</td><td>"+cars[i].matori+"</td> <td>"+cars[i].age+ "</td> </tr
+                  // "</table>") }
+                  document.write("<table border='2px'>")
+                        for (var i=0;i<=3;i++){
+                        document.write("<tr>")
+                           
+                                document.write("<td>"+cars[i].model+' '+"</td>")
+                                    document.write("<td>"+cars[i].age+' '+"</td>")
+                                        document.write("<td>" + cars[i].matori+' '+ "</td>")
+                                 document.write("</tr>")
+                                 
+                            }
+                        document.write("</table>")
+            
+        </script>
+</body>
+</html>
