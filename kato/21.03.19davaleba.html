@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+    function myfunction(){
+    var monacemebi=[{სახელი:"კატო",გვარი:"ჯავახაძე",ასაკი:28},
+                    {სახელი:"ელლე",გვარი:"სოლომონია",ასაკი:25},
+                    {სახელი:"გაგა",გვარი:"ჯანიკაშვილი",ასაკი:28},
+                    {სახელი:"ბექუ",გვარი:"სოლომონია",ასაკი:33}];
+    document.getElementById("t0").innerHTML  = monacemebi[0].სახელი;
+    document.write('<table border=1px>');
+    document.write('<thead>');
+    document.write('<th>სახელი</th>');
+    document.write('<th>გვარი</th>');
+    document.write('<th>ასაკი</th>');
+    document.write('</thead>');
+    for(var i=0; i<=3; i++) {
+    document.write('<tr>');
+    document.write('<td>'+monacemebi[i].სახელი+'</td>');
+    document.write('<td>'+monacemebi[i].გვარი+'</td>');
+    document.write('<td>'+monacemebi[i].ასაკი+'</td>');
+    document.write('</tr>');
+    }
+    document.write('</table>');
+    }
+  </script>
+</head>
+<body>
+ <input type="text" id="t0">
+ <button oncklick="myfunction()">gilaki</button>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#container {
+    background-color: gold;
+    display: flex;
+     
+}
+.meniu {
+    background-color: grey;
+    font-size: 30px;
+    flex-grow: 1
+}
+.meniu2 {
+    background-color: palevioletred;
+    font-size: 30px;
+
+}
+ 
