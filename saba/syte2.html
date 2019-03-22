@@ -4,6 +4,25 @@
     <link rel="stylesheet" type="text/css" href="css/syte2.css">
     <link rel="shortcut icon" type="image/png" href="photos/29978873.jpg">
     <title>JAVAXA|OFFICIAL</title>
+    <script>
+    function saba1(){
+            var name=(document.getElementById('saba').value);
+            switch(name){
+            case "SABA" :
+            alert('JAVAXISHVILI');
+            document.getElementById('javaxa').innerHTML='JAVAXISHVILI'
+            break;
+            case "IVERI":
+            alert('KERVALISHVILI');
+            document.getElementById('javaxa').innerHTML='KERVALISHVILI'
+            brake;
+            default:
+            alert('eseti saxeli araa')
+            brake;
+
+            }
+        }
+    </script>
 </head>
 <body background="photos/galaxy.jpg">
     <h1>JAVAXA|OFFICIAL</h1>
@@ -21,5 +40,8 @@
     <audio controls>
         <source src="audio/Masteri - Sistema.mp3">
     </audio>
+    <input type="text" id="saba">
+    <button onclick="saba1()" id="javaxa1" >&</button>
+    <p id="javaxa"></p>
 </body>
 </html>
