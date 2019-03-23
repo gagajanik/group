@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+            document.write("<table border='3px' >");
+                    document.write("<tr>");
+                    document.write("<th>saxeli</th>");
+                    document.write("<th>gvari</th>");
+                    document.write("<th>asaki</th>")
+                     document.write("</tr>");
+                         
+         var monacemebi=[
+         {saxeli:"giorgi",gvari:"javaxadze",asaki:"25" },
+             {saxeli:"elene",gvari:"solomonia",asaki:"25"},
+             {saxeli:"beqa",gvari:"solomonia",asaki:"32"},
+             {saxeli:"kato",gvari:"javaxadze",asaki:"28"},
+             {saxeli:"gaga",gvari:"janikashvili",asaki:"28"}
+         ]  
+         
+         for(var i=0;i<=5;i++){
+         document.write("<tr id='taidi"+i+" '>"); 
+         document.write("<td >"+monacemebi[i].saxeli+"</td>");
+         document.write("<td>"+monacemebi[i].gvari+"</td>") ;
+         document.write("<td>"+monacemebi[i].asaki+"</td>") ;
+         document.write("</tr>");  
+        
+         }      
+            document.write("</table>"); 
+            function saxeli() 
+            {  
+                var num = document.getElementById('inputi').value;
+                for(var i=0; i<=monacemebi.length; i++){
+                    if(i == num) {
+                     document.getElementById('taidi'+i).style.backgroundColor= "red";
+                       
+                    }
+                }
+
+ 
+        }   
+        
+        
+    </script>
+    
+    <input type="number" id="inputi"> <br><br>
+    <button onclick="saxeli()">send</button> 
+    <br><br>
+</body>
+</html>

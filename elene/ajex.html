@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+        <script>
+                function getPersons(){
+        const Http = new XMLHttpRequest();
+        const url='http://192.168.0.103:8081/api/persons';
+        Http.open("GET",url);
+        Http.send();
+        
+        
+        Http.onreadystatechange =(e) => {
+            var a;
+            var count;
+            if (Http.readyState==4 && Http.status==200)
+            {
+                document.write("<table border='2px'>");
+        document.write("<tr>");
+        document.write("<th>firstName</th>");
+         document.write("<th>lastName</th>");
+         document.write("<th>age</th>");
+        document.write("</tr>");
+                a=JSON.parse(Http.responseText);
+                count = Object.keys(a).length;
+            }
+            for (var i  =0;i<=a.length;i++){
+
+                document.write("<tr id='aidi"+i+"'>"); 
+                 document.write("<td>"+a[i].firstName+"</td>"); 
+                 document.write("<td>"+a[i].lastName+"</td>");
+                 document.write("<td>"+a[i].age+"</td>"); 
+             document.write("</tr>");
+             if(i%2==0){
+                 document.getElementById('aidi'+ i).style.backgroundColor="red";
+             }
+            }
+            document.write("</table>");
+        } 
+        
+                }
+            </script> 
+            <button onclick="getPersons()">send</button>
+</body>
+</html>

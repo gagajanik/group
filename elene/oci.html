@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #bodi{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body id="bodi">
+    <form action="http://192.168.0.103:8081/api/saveWithGet" method="GET">
+       
+        <table>
+            <tr>
+            <td>
+                 <label for="firstName">saxeli</label>
+            </td>
+            <td>
+              
+        <input type="text" id="firstName" name="firstName">
+    </td>
+</tr>
+    </table>
+        <table>
+            <tr>
+                <td>
+        <label for="lastName"  >gvari</label>
+    </td>
+        <input type="text" id="lastName" name="lastName">
+    </tr>
+    </table>
+        <label for="age">asaki</label>
+        <input type="number" id="age" name="age">
+        <br>
+        <input type="submit" value="registracia">
+    </form>
+</body>
+</html>
