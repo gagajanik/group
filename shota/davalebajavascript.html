@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>დავალება</title>
+    <script>
+        function homework(){
+            var x1=document.getElementById('text1').value;
+            var x2=document.getElementById('text2').value;
+            var x3=document.getElementById('mail').value;
+    
+            confirm("name :"+x1+" \n surname :"+x2+" \n email :"+x3+"" );
+         
+        }
+        </script>
+</head>
+<body>
+    <table>
+     <tbody>
+        <tr>
+            <td><label>სახელი</label></td>
+            <td><input type="text" id="text1" placeholder="name"></td>
+        </tr>
+        <tr>
+            <td><label>გვარი</label></td>
+            <td><input type="text" id="text2" placeholder="surname"></td>
+        </tr>
+        <tr>
+            <td><label>email</label></td>
+            <td><input type="text" id="mail" placeholder="email"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="submit" onclick="homework()"><td>
+
+        </tr>
+    </tbody>
+    
+
+    
+</body>
+</html>
