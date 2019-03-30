@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <meta charset="UTF-8">
+    </head>
+    <script>
+        function changecolor() {
+        var text = document.getElementById("col").value;
+        document.getElementById("txt").style.backgroundColor = text;
+        document.getElementById('dro').innerHTML = Date();
+        document.getElementById('dro').style.backgroundColor = text;
+        document.getElementById('dro').style.color = 'white';
+        document.getElementById("txt").style.color = 'white';
+        }
+    </script>
+    <body>
+        <p id="dro"></p>
+        <p id="txt">satestoteqsti</p>
+        <button onclick="changecolor()">shecvla</button>
+        <input type="text" id="col"/>
+    </body>
+</html>

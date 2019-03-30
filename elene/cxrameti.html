@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+/* P{ */
+    /* color: blue; */
+/* } */
+    </style>
+</head>
+<body>
+  <script>
+   for(i=1;i<=10;i++){
+        //    console.log("abaaa " +i);
+                    // alert("test"+ i)
+         document.write("<p id='rame" +i+ "'> "  + "aba " +i  +"</p>" ) ;  
+        // document.getElementsByTagName('p').style.color ='red';
+        // if(i==3){
+            //  document.getElementById('rame'+i).style.color='blue';
+        //   }  
+        //   if(i==5) {
+            //   document.getElementById('rame' +i).style.color='red'
+        //   }
+        switch(i){
+            case 3 :
+             document.getElementById('rame'+i).style.color='red'
+            break;
+            case 5: 
+            document.getElementById('rame'+i).style.color='green'
+            break;
+            
+        }
+          } 
+        //   document.getElementById("rame3").style.color="red"   ; 
+          
+          
+  </script>  
+
+</body>
+</html>

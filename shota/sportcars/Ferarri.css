@@ -1,8 +1,38 @@
 
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #rgb(167, 62, 62)}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 88px;
+    display: none;
+  }
+  ul li ul li { 
+    background:#rgb(167, 62, 62); 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background:#550a21}
+
 #shaviferari{
     background-image: url("./ferarri1.jpg");
     width: 1333px;
     height:349px;
+    background-attachment: fixed;
+    
+                    
 
 }
 
@@ -29,7 +59,7 @@
 
 }
 #buton1{
-    background-color: #b75237;
+    background-color: #33311c;
   border: none;
   color: white;
   
@@ -41,7 +71,7 @@
   cursor: pointer;
 }
 #buton2{
-    background-color: #b75237;
+    background-color: #33311c;
     border: none;
     color: white;
     
@@ -51,4 +81,11 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+#la{
+    margin-top: 8.2%;
+   
+}
+#div1{
+  flex-grow: 1;
 }
