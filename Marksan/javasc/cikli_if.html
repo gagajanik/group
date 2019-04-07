@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body id="bgc">
+    <!-- <p id="status"></p>
+    <script>
+        function shedareba(){
+            var i = 5;
+            if (i == 5){
+                var statusP = document.getElementById("status");
+                statusP.innerHTML = "victory";
+                statusP.style.color = "green"; 
+            }
+            else{
+                alert("alex");
+            }
+        }
+        shedareba();
+    </script> -->
+    <h1 id="satauri"></h1>
+    <input type="text" id="peri">
+    <input type="button" value="done" onclick="shecvlap()">
+    <script>
+        function shecvlap(){
+        var shecvla = document.getElementById ("peri").value;
+        document.getElementById ("bgc").style.backgroundColor = shecvla;
+        // document.getElementById("satauri").innerHTML = shecvla;
+            if (shecvla == "black"){
+                document.getElementById("satauri").innerHTML = "black";
+                document.getElementById("satauri").style.color = "white" ;
+            }
+            
+            if (shecvla == "green"){
+                document.getElementById("satauri").innerHTML = "green";
+            }
+            
+            if (shecvla == "blue"){
+                document.getElementById("satauri").innerHTML = "blue";
+            }
+        }
+    
+    </script>
+</body>
+</html>
